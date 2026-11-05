@@ -1,1 +1,48 @@
-/* Start coding here */
+/* Feature Section Layout */
+.feature-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  /* Card Component */
+  .card {
+    flex: 1;
+    background-color: #f0f3ff; /* สีฟ้าอ่อนตามโจทย์ */
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Icon Box */
+  .icon-box {
+    width: 36px;
+    height: 36px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  }
+  
+  /* Heading & Paragraph Typography */
+  .card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #111827;
+    margin: 0 0 8px 0;
+  }
+  
+  .card p {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #6b7280;
+    margin: 0;
+  }/* Start coding here */
